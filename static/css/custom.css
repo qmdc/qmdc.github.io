@@ -1,0 +1,32 @@
+/* 横线配置 */
+.sep {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 0;
+    width: 24rem;
+    /* border-top: 2px solid #007dfa; */
+    border-top: 2px solid #d2d7e1
+}
+
+/* 全局 */
+body {
+    font-family: 'Microsoft YaHei', sans-serif;
+}
+
+/* 页脚信息颜色 */
+.u-footer {
+    color: #909399;
+}
+
+/* 控制副标题 */
+#brand h5 {
+    margin-top: 10px;
+    font-size: 1.9rem;
+    font-weight: bold;
+}
+
+/* 控制主页两个列表标题 */
+.container article section h4 {
+    font-size: 2rem;
+    font-weight: 400;
+}

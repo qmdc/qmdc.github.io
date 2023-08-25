@@ -1,0 +1,138 @@
+baseURL = '/'
+languageCode = 'zh-cn'
+title = '梧桐河畔'
+theme = 'manis'
+
+# 版权声明。注意：您可以在此处使用HTML标记
+copyright = "&copy; 2023 千岛  <a href='https://beian.miit.gov.cn/publish/query/indexFirst.action' target='_blank' id='recordNumber' style='color: #909399''>皖ICP备2022005194号</a>"
+pluralizeListTitles = false
+
+# 显示分页导航之前的最小帖子数
+paginate = 8
+
+# 你的名字缩写
+disqusShortname = "qmdc"
+
+# 如果你想翻译你的博客，请编辑此
+defaultContentLanguage = "en"
+
+# 代码高亮显示 (Chroma)
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+[menu]
+	[[menu.main]]
+		name = "记忆碎片"
+		url = "/memento"
+		weight = 6
+	[[menu.main]]
+		name = "思感"
+		url = "/ponder"
+		weight = 5
+	[[menu.main]]
+		name = "镜中月"
+		url = "/story"
+		weight = 1
+	[[menu.main]]
+		name = "随笔"
+		url = "/essay"
+		weight = 7
+	[[menu.main]]
+		name = "观书"
+		url = "/reflections"
+		weight = 9
+	[[menu.main]]
+		name = "霜花落"
+		url = "/submerge"
+		weight = 2
+	[[menu.main]]
+		name = "飞鸟集"
+		url = "/birds"
+		weight = 3
+	[[menu.main]]
+		name = "成长物語"
+		url = "/stories"
+		weight = 4
+	[[menu.main]]
+		name = "悠悠岁月"
+		url = "/once"
+		weight = 8
+	[[menu.main]]
+		name = "迎风而行"
+		url = "/windward"
+		weight = 10
+	[[menu.main]]
+		name = "时光"
+		url = "/time"
+		weight = 11
+	[[menu.main]]
+		name = "导航"
+		url = "/nav"
+		weight = 12
+	[[menu.main]]
+		name = "关于"
+		url = "/about"
+		weight = 13
+
+[taxonomies]
+	tag = "tags"
+
+[params]
+	# If false, use minified CSS (ui.min.css)
+	debugCSS = false
+	# 自定义CSS
+	customCSS = ["/css/custom.css"]
+	
+	# meta描述
+	description = "Sweet little Hugo's theme for personal website or blog."
+	# 网站的标记线（副标题或关键字）
+	tagline = "寻觅生活的诗意"
+	# If true give attribution to this theme 主题来源
+	themeAttrib = false
+	# URL to license file, can be outside of your domain 许可证文件的URL，可以在您的域之外
+	# licenseURL = "/about/license"
+
+	# Configure which sections for Latest Posts 最新posts的部分
+	mainSections = ["memento","ponder","story","essay","reflections"]
+	# Configure which sections for Latest Works 最新works的部分
+	workSections = ["submerge","birds","stories","once","windward"]
+	
+	# List of sections that support disqus comments 支持disqus评论的部分列表
+	disqusSections = []
+	# List of sections that support utterances comments 支持话语评论的部分列表
+	utterancesSections = ["memento","ponder","story","essay","reflections","submerge","birds","stories","once","windward","time","nav","about"]
+	
+	# Utterances Configuration 话语配置
+	utterancesRepo = "qmdc/comment"
+	utterancesTheme = "github-light"
+	utterancesLabel = "stranger"
+
+	# 404 Configuration 404配置
+	head404 = "404"
+	sub404 = "Back to <a href='/'>Home</a>."
+
+	# Color of your website's accent 网站口音的颜色
+	colorTheme = "#007dfa"
+	# Maximum number of item in Latest Posts or Works 最新帖子或作品中的最大项目数
+	latestCount = 5
+	# Path to site's favicon image 网站收藏夹图片的路径
+	faviconImg = ""
+	# Date format in item list 项目列表中的日期格式
+	dateFmt = "Jan 02, 2006"
+
+	# Code Highlighting (HighlightJS) 代码高亮显示
+	highlightJs = false
+	highlightJsLanguages = [ "go" ]
+	highlightJsStyle = "ocean"
+
+	# Social Links 社交链接
+#	 email = "notre1024@163.com"
+#	 github = "https://github.com/qmdc"
+#	 twitter = "https://twitter.com/yuri_boya"
+
+
+# Language Configuration 语言配置
+# [languages.in]
+# 	lang = "in"
+# 	languageName = "Bahasa Indonesia"
+# 	weight = 1
