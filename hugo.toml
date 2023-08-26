@@ -119,6 +119,7 @@ pygmentsUseClasses = true
 	faviconImg = ""
 	# Date format in item list 项目列表中的日期格式
 	dateFmt = "Jan 02, 2006"
+#	dateFmt = "2006-01-02"
 
 	# Code Highlighting (HighlightJS) 代码高亮显示
 	highlightJs = false

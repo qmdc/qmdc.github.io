@@ -1,0 +1,10 @@
+{{ $content := .Inner }}
+{{ $paragraphs := split $content "\n\n" }}
+{{ range $index, $paragraph := $paragraphs }}
+<div style="text-indent: 4rem;" class="my-indent">
+    {{ $paragraph }}
+</div>
+{{ if ne $index (sub (len $paragraphs) 1) }}
+<br>
+{{ end }}
+{{ end }}
