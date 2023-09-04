@@ -66,13 +66,9 @@ pygmentsUseClasses = true
 		url = "/time"
 		weight = 11
 	[[menu.main]]
-		name = "导航"
-		url = "/nav"
-		weight = 12
-	[[menu.main]]
 		name = "关于"
 		url = "/about"
-		weight = 13
+		weight = 12
 
 [taxonomies]
 	tag = "tags"
@@ -100,7 +96,7 @@ pygmentsUseClasses = true
 	# List of sections that support disqus comments 支持disqus评论的部分列表
 	disqusSections = []
 	# List of sections that support utterances comments 支持话语评论的部分列表
-	utterancesSections = ["memento","ponder","story","essay","reflections","submerge","birds","stories","once","windward","time","nav","about"]
+	utterancesSections = ["memento","ponder","story","essay","reflections","submerge","birds","stories","once","windward","time"]
 	
 	# Utterances Configuration 话语配置
 	utterancesRepo = "qmdc/comment"
