@@ -4,6 +4,20 @@
 
 > 博客主题：[Manis](https://github.com/yursan9/manis-hugo-theme) 
 
+## hugo常用命令
+
+```shell
+1. `hugo new <post-name>`：创建新的文章或页面。例如：`hugo new blog/my-new-post.md`。
+
+2. `hugo server`：启动本地服务器，用于预览网站。默认情况下，服务器将在`http://localhost:1313/`上运行。
+
+3. `hugo server -D`：启动本地服务器，并包括未发布的草稿文章。
+
+4. `hugo`：生成静态网站文件。默认情况下，生成的文件将存储在`public/`目录中。
+
+5. `hugo version`：查看安装的Hugo版本。
+```
+
 
 ## 自定义简码
 
